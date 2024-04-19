@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Tic_Tac_Toe_Vladislavs_Goreliks</string>
+    <string name="tic_tac_toe">Tic Tac Toe</string>
+    <string name="single_player">Single Player</string>
+    <string name="multiplayer">Multiplayer</string>
+    <string name="first_player_name">First Player Name</string>
+    <string name="second_player_name">Second Player Name</string>
+    <string name="start">Start</string>
+    <string name="back">Back</string>
+    <string name="restart">Restart</string>
+</resources>

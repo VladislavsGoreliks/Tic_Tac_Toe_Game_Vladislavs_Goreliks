@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity2"
+    android:orientation="vertical"
+    android:background="@color/white"
+    android:gravity="center">
+
+    <EditText
+        android:id="@+id/firstPlayerName_et"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:gravity="center"
+        android:hint="@string/first_player_name"
+        android:textSize="25sp"
+        android:inputType="text"
+        android:layout_marginBottom="20dp"
+        android:textColor="@color/black"
+        android:background="@color/blue">
+    </EditText>
+
+    <EditText
+        android:id="@+id/secondPlayerName_et"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:gravity="center"
+        android:hint="@string/second_player_name"
+        android:textSize="25sp"
+        android:inputType="text"
+        android:textColor="@color/black"
+        android:background="@color/blue"
+        android:layout_marginBottom="20dp">
+    </EditText>
+
+    <Switch
+        android:id="@+id/xo_switch"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:text="Role:off-x,on-o"
+        android:gravity="center"
+        android:textColor="@color/black"
+        android:textSize="25sp"
+        android:checked="false"
+        android:layout_marginBottom="20dp">
+    </Switch>
+
+    <Button
+        android:id="@+id/start_bt"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:textSize="25sp"
+        android:gravity="center"
+        android:text="@string/start"
+        >
+    </Button>
+
+    <Button
+        android:id="@+id/back_bt"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:textSize="25sp"
+        android:gravity="center"
+        android:text="@string/back"
+        >
+    </Button>
+
+
+
+</LinearLayout>

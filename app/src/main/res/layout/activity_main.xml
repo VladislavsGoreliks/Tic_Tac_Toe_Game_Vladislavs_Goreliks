@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@color/white"
+    android:orientation="vertical"
+    android:gravity="center">
+
+
+    <TextView
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:gravity="center"
+        android:text="@string/tic_tac_toe"
+        android:textSize="40sp"
+        android:layout_marginBottom="100dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:textColor="@color/black"/>
+
+    <Button
+        android:id="@+id/single_bt"
+        android:layout_width="250dp"
+        android:layout_height="45dp"
+        android:background="@color/black"
+        android:text="@string/single_player"
+        android:textSize="25sp"
+        android:gravity="center"
+        android:textColor="@color/white"
+        android:layout_marginBottom="20dp">
+    </Button>
+
+    <Button
+        android:id="@+id/multiplayer_bt"
+        android:layout_width="250dp"
+        android:layout_height="45dp"
+        android:background="@color/black"
+        android:text="@string/multiplayer"
+        android:textSize="25sp"
+        android:gravity="center"
+        android:textColor="@color/white">
+    </Button>
+
+</LinearLayout>
